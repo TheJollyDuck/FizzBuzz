@@ -6,6 +6,8 @@
 numList = [3,5,10,13]
 wordlist = ["fizz","buzz","splonk","kaboom"]
 
+print("FizzBuzz is starting....")
+
 for i in range(0,1000):
     output = ""
     for j in range(0,len(numList)):
