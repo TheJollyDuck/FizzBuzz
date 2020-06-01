@@ -1,4 +1,4 @@
-# Shaun Recto
+# TheJollyDuck
 # FizzBuzz
 # This program prints out numbers but for
 # a specifc multiple of a number with a word
@@ -18,4 +18,4 @@ for i in range(0,1000):
     else:
         print(output)
 
-End = input("Press [Enter] to quit application...")
+End = input("Press [Enter] to quit application....")
