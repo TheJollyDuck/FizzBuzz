@@ -17,3 +17,5 @@ for i in range(0,1000):
         print(i)
     else:
         print(output)
+
+End = input("Press [Enter] to quit application...")
