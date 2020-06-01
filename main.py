@@ -6,9 +6,7 @@
 numList = [3,5,10,13]
 wordlist = ["fizz","buzz","fizzle","kaboom"]
 
-print("========================")
 print("FizzBuzz is starting....")
-print("========================")
 
 for i in range(0,1000):
     output = ""
