@@ -4,7 +4,7 @@
 # a specifc multiple of a number with a word
 
 numList = [3,5,10,13]
-wordlist = ["fizz","buzz","splonk","kaboom"]
+wordlist = ["fizz","buzz","fizzle","kaboom"]
 
 print("========================")
 print("FizzBuzz is starting....")
