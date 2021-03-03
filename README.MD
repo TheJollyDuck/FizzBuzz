@@ -16,17 +16,26 @@ This one was done in python 3, and tried to make it simple to understand and nic
 
 ## C
 
-This one was a lot harder to implement as the properties of strings are much different compared to Python, and in my method, needs a lot more code to implement, using more or less the same approach as Python.
+This one took longer to develop, using the concatenation approach in the previous commit, but now it works much better than before using a counter method. Instead of concatenating the various phrases into one output, you count how many times a number is a multiple, and prints out the phrases one at time. There is a check in the end if the number is not a multiple, in which case, it prints out the number.
 
 • Uses structs to have pairs of both the factor and the word to replace it.
 
-• Also uses the method of concatenation for the printout, but uses a lot more code to iterate through the arrays
+• Uses the method of counters for the printout, replacing the previous method of concatenation, reducing the number of dependencies
 
-• Also allows user input
+• Also allows user input to limit the number of iterations
 
-• This implementation requires 2 parts of the code to add more pairs. Remember to change these accordingly (or have `ARRAY_SIZE` a very big integer)
+• This implementation requires 1 modification of the code to add more pairs. The left must be the phrase/word and the factor on the right.
 
-    const int ARRAY_SIZE = 20; // Array size must be bigger than total pattern chars
-    ...
-    ...
     pattern req[] = {{"Fizz", 3}, {"Buzz", 5}, {"Jazz", 8}}; // Can add/remove pairs here
+
+## C++
+
+This method follows suit of Python in that it uses the concatenation method, which works due to the more simple string type, when compared to strings in C. The code isn't as elegant as the Python implementation, but it does the job.
+
+• Also uses structs to have pairs of both the factor and the word to replace it.
+
+• Uses a method of concatenation, which was easier to implement than in C.
+
+• Also allows user input to limit the number of iterations
+
+• See C for modifying the pairs. The approach is the same.
