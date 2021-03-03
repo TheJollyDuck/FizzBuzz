@@ -42,4 +42,12 @@ This method follows suit of Python in that it uses the concatenation method, whi
 
 ## MATLAB / Octave
 
-This version is still in development
+This version was just to see if MATLAB was able to accomplish the task more or less on par with the others. You will need a MATLAB compiler for this (I have not tweaked it for dual compatability with both MATLAB and Octave; will happen soon), meaning you will need a license.
+
+• Uses matrices as that's the main thing about MATLAB
+
+• Somewhat resembles the C approach
+
+• Also allows user input to limit the number of iterations
+
+• Modifying pairs will need to be overhauled as current implementation does not work with Octave 6.1.0
