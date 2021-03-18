@@ -14,9 +14,11 @@
 #include <stdlib.h>                                             // Standard library
 #include <string.h>                                             // for string functions
 
+#define WORD_LENGTH 20                                          // Limits the length of output word
+
 typedef struct pair {                                           // Struct for easy implementation of a word and it's number
 
-    char word[20];
+    char word[WORD_LENGTH];
     int number;
 
 } pattern;
